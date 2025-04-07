@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz: Qual Carreira de TI Você Deve Seguir?</title>
+  <link rel="stylesheet" href="styleQuiz.css">
+  <link rel="stylesheet" href="styleResultado-quiz.css">
+</head>
+<body>
+  <header>
+    <img class="img-lg" src="logo-3.jpeg" alt="">
+    <img class="logoPrincipal" src="/tela-inicial/logo.png" alt="imagem da logo" width="100px">
+    <a href="#" class="logo">Young Works</a>
+
+    <ul class="navlist">
+        <li><a href="../../tela-principal/home.html">Home</a></li>
+        <li><a href="quiz/index.html">Quiz</a></li>
+        <li><a href="#">Cursos</a></li>
+        <li><a href="#">Contatos</a></li>
+    </ul>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </header>
+
+  <div class="container">
+    <h1>Responda esse quiz</h1>
+    <br>
+    <h1>Qual Carreira de TI Você Mais Se Identifica?</h1>
+
+    <div id="quiz-container">
+      <div class="question" id="question-container">
+        <p id="question-text"></p>
+        <div id="options-container"></div>
+      </div>
+      <button id="next-button" onclick="nextQuestion()" style="display:none;">Próxima</button>
+    </div>
+
+    <!-- Resultado com estrutura HTML pré-definida -->
+    <div id="result-container" class="hidden">
+      <h2 id="result-title">Resultado</h2>
+      <p id="result-text"></p>
+      <div id="course-container">
+        <h3 id="course-title">Curso Recomendado</h3>
+        <p id="course-name"></p>
+        <p id="course-platform"></p>
+        <p id="course-description"></p>
+        <br>
+        <a id="course-link">ACESSAR CURSO</a> <!-- Este é o lugar onde o link será exibido -->
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
