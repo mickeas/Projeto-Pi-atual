@@ -117,33 +117,35 @@ function showResults() {
       description: `Principais tópicos abordados neste curso gratuito:
                     Introdução ao desenvolvimento web e à importância do HTML, CSS e Bootstrap.
                     Fundamentos do HTML: estrutura básica, tags, imagens, links e formatação de conteúdo.
-                    Fundamentos do JAVASCRIPT: o básico da programação web com javascript.
-                    Estilizando suas páginas web com CSS: seletores, propriedades, valores e layout responsivo.
-                    Utilizando o Bootstrap para criar layouts e componentes reutilizáveis.
-                    Melhores práticas para otimizar o desempenho e a compatibilidade dos seus websites.
-                    Projeto prático: construindo um website completo usando HTML, CSS, Bootstrap e JAVASCRIPT."`,
-      link: "https://www.udemy.com/course/curso-de-desenvolvimento-web-html-e-css-2023/"
+                    Fundamentos do JAVASCRIPT: o básico da programação web com javascript."`,
+      link: "https://www.udemy.com/course/curso-de-desenvolvimento-web-html-e-css-2023/",
     },
     {
       area: "Desenvolvimento de Software (Back-end)",
-      course: "Curso de Node.js: O Guia Completo",
+      course: "Programador Back End - Visual Studio 2019",
       platform: "Udemy",
-      description: "Este curso aborda o desenvolvimento back-end com Node.js, um dos frameworks mais populares para esse tipo de desenvolvimento. Inclui conceitos de APIs RESTful, bancos de dados, autenticação e muito mais.",
-      link: "https://www.udemy.com/courses/search/?src=ukw&q=back+end"
+      description: `O curso de Programador Back End com Visual Studio 2019 e Visual Basic possui 60 vídeo aulas,
+                    ele pode ser acompanhado também com as versões 2015 ou 2017, neste curso o aluno vai aprender a trabalhar
+                    com a plataforma usando a linguagem Visual Basic como programador back end, pegando um projeto desenvolvido
+                    por um front end e aplicamos a comunicação com o banco de dados mysql onde fazemos todo o crud inserindo dados
+                    , editando, criando consultas e muito mais, é aconselhável o aluno acompanhar antes o módulo anterior onde 
+                    é mostrado como trabalhar com o visual studio para desenvolvedor front end.`,
+      link: "https://www.udemy.com/course/programador-back-end-visual-studio-2019/?couponCode=ST13MT80425G3"
     },
     {
       area: "Desenvolvimento de Aplicativos (Mobile)",
-      course: "Desenvolvimento de Apps Android com Kotlin",
+      course: "Primeiros Passos com React Native - Apps Mobile",
       platform: "Udemy",
-      description: "Focado no desenvolvimento de aplicativos Android com Kotlin. Esse curso é ideal para quem quer começar a criar apps para dispositivos móveis, utilizando uma das linguagens mais modernas e recomendadas para a plataforma Android.",
-      link: "https://www.udemy.com/courses/search/?src=ukw&q=back+end"
+      description: `Aprenda a construir aplicativos para as plataformas Android e iOS com Javascript usando React Native.`,
+      link: "https://www.udemy.com/course/primeiros-passos-com-react-native/"
     },
     {
       area: "DevOps",
-      course: "DevOps: A Prática Completa (AWS, Docker, Jenkins, Kubernetes)",
+      course: "Conceitos DevOps",
       platform: "Udemy",
-      description: "Este curso é perfeito para quem deseja aprender práticas de DevOps, utilizando ferramentas como AWS, Docker, Jenkins e Kubernetes. Ele oferece uma visão abrangente de como integrar e automatizar o ciclo de vida de desenvolvimento de software.",
-      link: "https://www.udemy.com/courses/search/?src=ukw&q=back+end"
+      description: `Conceito DevOps Escopo das práticas DevOps no treinamento. Monitoração, integração, entrega e implantação
+                    contínua. Noções básicas de serviços e Stack.`,
+      link: "https://www.udemy.com/course/conceitos-devops/"
     }
   ];
 
