@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    list-style-type: square;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha o conteúdo ao topo */
+    height: 100vh;
+    margin: 0;
+    padding-top: 80px; /* Espaço para o header */;
+    margin-bottom: 300px;
+}
+
+header {
+    position: fixed; /* Fixar o header no topo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #000000; /* Garantir que o fundo do header seja visível */
+}
+
+#container {
+    background-color: rgb(247, 222, 3);
+    color: #000000;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%; /* Ajuste para que o container ocupe 100% da largura */
+    height: auto;
+    font-size: 30px;
+    margin-top: 100px; /* Garantir que o container tenha espaço abaixo do header */
+    margin-bottom: 800px;
+}
+
+#lista-nao-ordenada {
+    padding: 20px;
+    list-style: disc;
+}
+
+#bolinha {
+    margin-top: 20px;
+}

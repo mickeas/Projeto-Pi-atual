@@ -1,0 +1,54 @@
+/* Estilo dos resultados do quiz*/
+
+body{
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#result-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#result-title {
+    font-size: 20px;
+    color: #333;
+}
+
+#course-container {
+    margin-top: 20px;
+}
+
+#course-name {
+    font-weight: bold;
+}
+
+#course-description {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #666;
+}
+
+/* estilo do botao acessar curso  */
+
+#course-link {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0px;
+
+}
+
+#course-link:hover {
+    color: #ffca1e;
+}

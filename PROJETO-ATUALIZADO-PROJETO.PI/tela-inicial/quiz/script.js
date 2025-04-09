@@ -108,9 +108,10 @@ function showResults() {
 
   // Determina a área com maior pontuação
   const maxScore = Math.max(...scores);
-  const areas = ["Desenvolvimento Web", "Desenvolvimento de Software (Back-end)", "Desenvolvimento de Aplicativos (Mobile)", "DevOps"];
+  const areas = ["DESENVOLVIMENTO FRONT-END", "DESENVOLVIMENTO BACK-END", "DESENVOLVIMENTO DE APLICATIVOS (MOBILE)", "DEVOPS"];
   const courses = [
     {
+      informacoes: "/tela-inicial/quiz/informacoes-area/front-end/index.html",
       area: "Desenvolvimento Web",
       course: "Desenvolvimento Web Completo com HTML, CSS, JavaScript, SQL e PHP",
       platform: "Udemy",
@@ -121,6 +122,7 @@ function showResults() {
       link: "https://www.udemy.com/course/curso-de-desenvolvimento-web-html-e-css-2023/",
     },
     {
+      informacoes: "/tela-inicial/quiz/informacoes-area/back-end/index.html",
       area: "Desenvolvimento de Software (Back-end)",
       course: "Programador Back End - Visual Studio 2019",
       platform: "Udemy",
@@ -133,6 +135,7 @@ function showResults() {
       link: "https://www.udemy.com/course/programador-back-end-visual-studio-2019/?couponCode=ST13MT80425G3"
     },
     {
+      informacoes: "/tela-inicial/quiz/informacoes-area/aplicativo(Mobile)/index.html",
       area: "Desenvolvimento de Aplicativos (Mobile)",
       course: "Primeiros Passos com React Native - Apps Mobile",
       platform: "Udemy",
@@ -140,6 +143,7 @@ function showResults() {
       link: "https://www.udemy.com/course/primeiros-passos-com-react-native/"
     },
     {
+      informacoes: "/tela-inicial/quiz/informacoes-area/devops/index.html",
       area: "DevOps",
       course: "Conceitos DevOps",
       platform: "Udemy",
@@ -162,6 +166,7 @@ function showResults() {
   document.getElementById('course-description').textContent = `Descrição: ${bestCourse.description}`;
   //document.getElementById(`course-link`).textContent = `link: ${bestCourse.link}`;
   document.getElementById('course-link').href = bestCourse.link
+  document.getElementById('informacoes-sobre-area').href = bestCourse.informacoes
 
   // Exibe a seção de resultados e oculta o quiz
   document.getElementById('quiz-container').style.display = 'none';
